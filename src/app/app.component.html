@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<div class="sidebar">
+	<img src="assets/fotoprofil.jpg" alt="ma photo">
+	<h1>{{name}}</h1>
+	<h2>Développeuse Web</h2>
+	<menu>
+        <a routerLink="/about">A propos</a>
+        <a routerLink="/portfolio">Portfolio</a>
+        <a routerLink="/playground">Playground</a>
+    </menu>     
+    <router-outlet></router-outlet>
+	<div class="socialMedia">
+		<a href="https://twitter.com/?lang=fr"><i class="twit fa fa-twitter"></i></a> 
+	    <a href="https://github.com/"><i class=" git fa fa-github" aria-hidden="true"></i></a>
+	</div>
+</div>
+

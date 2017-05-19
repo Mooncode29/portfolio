@@ -1,0 +1,17 @@
+
+.sidebar {
+	min-height: 100vh;
+	width: 15em;
+	background: #004e66;
+	margin: 0;
+	padding: 0; 
+}
+h1 {
+	color: white;
+}
+img {
+	height: 180px;
+	padding-left: 2em;
+	padding-top: 2em;
+	border-radius: 20px;
+}
