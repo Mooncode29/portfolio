@@ -1,12 +1,13 @@
-<div *ngFor="let project of projects" class="portfolio" [class.selected]="project === selectedProject"
-(click)="onSelect(project)">
-	
-  	<h3>{{project.name}}</h3>
-  	<img src="{{project.imgUrl}}" alt="foto du site" class="fotoProjet">
-  	<p>{{project.description}}</p>
-  	<h5>{{project.techno}}</h5>
-  	
+<div class="col-sm-7 ">
+	<div *ngFor="let project of projects" [class.selected]="project === selectedProject">
+		
+	  	<h3>{{project.name}}</h3>
+	  	<img src="{{project.imgUrl}}" alt="foto du site" class="fotoProjet">
+	  	<p>{{project.description}}</p>
+	  	<h5>{{project.techno}}</h5>
+	  	<button class="btn btn-primary btn-sm"(click)="gotoDetail(project)">Voir détail</button>
+	</div>
 </div>
-<div *ngIf="selectedProject" class= "portfolio">
+<!-- <div *ngIf="selectedProject" class= "portfolio">
 	<button (click)="gotoDetail()">Voir détail</button>
-</div>
+</div> !-->

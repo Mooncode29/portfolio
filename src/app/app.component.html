@@ -1,16 +1,22 @@
-<div class="sidebar">
-	<img src="assets/fotoprofil.jpg" alt="ma photo">
-	<h1>{{name}}</h1>
-	<h2>Développeuse Web</h2>
-	<menu>
-        <a routerLink="/about">A propos</a>
-        <a routerLink="/portfolio">Portfolio</a>
-        <a routerLink="/playground">Playground</a>
-    </menu>     
-    <router-outlet></router-outlet>
-	<div class="socialMedia">
-		<a href="https://twitter.com/?lang=fr"><i class="twit fa fa-twitter"></i></a> 
-	    <a href="https://github.com/"><i class=" git fa fa-github" aria-hidden="true"></i></a>
+	<div class="row">
+		<div class="sidebar col-sm-4">	
+			<img src="assets/fotoprofil.jpg" alt="ma photo" >
+			<h1>{{name}}</h1>
+			<h2>Développeuse Web</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta omnis debitis voluptatum assumenda, distinctio dolorum quam fugiat voluptates sed blanditiis. Dolorem repudiandae veritatis vero, qui fugiat dolor ex minima nisi.</p>
+			<menu>
+				<div><a routerLink="/about">A propos</a></div>
+				<div><a routerLink="/portfolio">Portfolio</a></div>
+				<div><a routerLink="/playground">Playground</a></div>
+			</menu>     
+			<div class="socialMedia">
+				<div>
+					<a href="https://twitter.com/?lang=fr"><i class="twit fa fa-twitter"></i></a> 
+				</div>
+				<div>
+					<a href="https://github.com/"><i class=" git fa fa-github" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<router-outlet></router-outlet>
 	</div>
-</div>
-

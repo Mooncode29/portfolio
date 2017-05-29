@@ -15,7 +15,6 @@ import { Router } from '@angular/router';
 export class PortfolioComponent implements OnInit {
 
 	projects: Project[];
-	selectedProject: Project;
 
   	constructor(
   		private router: Router,
@@ -29,12 +28,9 @@ export class PortfolioComponent implements OnInit {
   		this.getProjects();
   	}
 
-  	onSelect(project: Project): void {
-    	this.selectedProject = project;
-  	}
+  	gotoDetail(project: Project): void {
+      this.router.navigate(['/project-detail', project.id]);
 
-  	gotoDetail(): void {
-    	this.router.navigate(['/project-detail', this.selectedProject.id]);
   	}
 
 }
