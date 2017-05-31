@@ -30,7 +30,6 @@ export class PortfolioComponent implements OnInit {
 
   	gotoDetail(project: Project): void {
       this.router.navigate(['/project-detail', project.id]);
-
   	}
 
 }

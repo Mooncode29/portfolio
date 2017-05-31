@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 
 import { ProjectService } from './project.service';
+import { PlaygroundProjectService } from './playground-project.service';
 
 const routes: Routes = [
   { path: '', redirectTo: '/portfolio', pathMatch: 'full' },
@@ -34,7 +35,7 @@ const routes: Routes = [
     HttpModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [ProjectService],
+  providers: [ProjectService, PlaygroundProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

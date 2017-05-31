@@ -1,7 +1,7 @@
 .portfolio {
-	margin-left: 25em;
-	margin-top: 0;
-	
+	display: flex;
+	justify-content: space-around;
+
 }
 .fotoProjet {
 	height: 300px;

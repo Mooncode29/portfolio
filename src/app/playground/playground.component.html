@@ -1,3 +1,9 @@
-<p>
-  playground works!
-</p>
+<div class="col-sm-7 ">
+	<div *ngFor="let project of playgroundProjects" [class.selected]="project === selectedProject">
+		
+	  	<h3>{{project.name}}</h3>
+	  	<p>{{project.description}}</p>
+	  	<h5>{{project.techno}}</h5>
+	  	<button class="btn btn-primary btn-sm"(click)="gotoDetail(project)">Voir détail</button> 
+	</div>
+</div>
