@@ -1,8 +1,21 @@
-<div class="col-sm-7 ">
-	<div *ngFor="let project of playgroundProjects" [class.selected]="project === selectedProject">
-		 <h3>{{project.name}}</h3>
-		<p>{{project.description}}</p>
-		<h5>{{project.techno}}</h5>
-		<button class="btn btn-primary btn-sm"(click)="gotoDetail(project)">Voir détail</button>  !
+<h1 class="page-title">Playground</h1>
+<div class="playground col-sm-8 ">
+	<div class="grid-gallery" *ngFor="let project of playgroundProjects" [class.selected]="project === selectedProject">
+		<section class="grid-wrap">
+			<ul class="grid">
+				<li class="grid-sizer"></li><!-- for Masonry column width -->				
+				<li>
+					<figure>
+						<img src="{{project.imgPath}}" alt="projet">
+						<figcaption>
+							<h3>{{project.name}}</h3>
+							<p>{{project.description}}</p>
+							<h5>{{project.techno}}</h5>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</section>				
 	</div>
 </div>
+		<!-- <button class="btn btn-primary btn-sm"(click)="gotoDetail(project)">Voir détail</button> !-->

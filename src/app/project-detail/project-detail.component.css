@@ -1,8 +1,15 @@
 .detail {
-	margin-left: 25em;
-	margin-top: 0;
+	/*margin-left: 40em;*/
+	margin-top: 5em;
+	
 }
-.imgDetail {
-	height: 5em;
+.texte{
+	margin-left: 5em;
+}
+.droite{
+	left: 30%;
+}
+/*.imgDetail {
+	height: 2em;
 	width: 100%;
-}
+}*/

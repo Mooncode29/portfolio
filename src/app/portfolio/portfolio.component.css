@@ -1,8 +1,30 @@
 .portfolio {
 	display: flex;
-	justify-content: space-around;
+	position: relative;
+	left: 35%;
 
 }
+.wrap-card{
+	display: flex;
+	background-color: #455A64;
+	-ms-align-items: center;
+	margin: 2em 0 2em 5em;
+	width: 60%;
+	color:#fff;
+}
+.text{
+	
+	padding-left: 3em;
+}
+.mybtn {
+	margin-top: 10em;
+	margin-left: 16em;
+	
+}
+/*h1 {
+	text-align: center;
+	font-family:'Playball',cursive;
+}*/
 .fotoProjet {
 	height: 300px;
 	width: 250px;

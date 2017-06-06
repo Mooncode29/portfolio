@@ -3,9 +3,10 @@
 	height: 100vh;
 	/*width: 15em;*/
 	background: #004e66;
-	/*margin: 0;
-	padding: 0; */
-	/*width:100%;*/
+	position: fixed;
+	color: white;
+	padding: 0 2em 0 2em;
+	text-align: justify;
 
 }
 h1 {
@@ -18,4 +19,8 @@ img {
 	padding-top: 2em;
 	border-radius: 20px;
 }
-
+.socialMedia {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 4em;
+}

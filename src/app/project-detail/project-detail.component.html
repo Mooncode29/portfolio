@@ -1,8 +1,12 @@
-<div *ngIf="project" class="detail">
-	<img class="imageDetail" src="{{project.imgDetail}}" alt="photo">
-	<p>
-	  {{project.detailedDescription}}
-	</p>
-	<p>{{project.contribution}}</p>
-	<button type="button" class="btn btn-primary btn-sm"(click)="goBack()">Retour</button>
+<div class="droite col-sm-8">	
+	<div *ngIf="project" class="detail">
+		<img class="imgDetail" src="{{project.imgDetail}}" alt="photo">
+		<div class="texte">
+			<p>
+			  {{project.detailedDescription}}
+			</p>
+			<p> Ma contribution : {{project.contribution}}</p>
+			<button type="button" class="btn btn-primary btn-sm"(click)="goBack()">Retour</button>
+		</div>
+	</div>
 </div>

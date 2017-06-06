@@ -21,5 +21,16 @@ export const projets : Project[]= [
 		shortDescription: 'Création moteur de blog',
 		detailedDescription:"Dans le cadre de la certification de ma formation de developpeur web, j'ai réalisé en binôme ce moteur de blog sans avoir recours à aucun CMS",
 		contribution: 'création du dashboard de la zone admin, création des fonctionnalités qui permettent de créer, consulter, supprimer ou éditer un article'
-	}
+	},
+	{
+		id: 3,
+		name:'AFEV',
+		imgUrl: 'assets/afev.png',
+		imgDetail: 'assets/afev.png',
+		techno: 'Wordpress, Foundation',
+		shortDescription: '',
+		detailedDescription:"Integration sur Wordpress du site",
+		contribution: 'création du footer, vérification de la conformité du resulat avec la maquette du client'
+	},
+
 ]
