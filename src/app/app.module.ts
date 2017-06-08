@@ -12,13 +12,16 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 
 import { ProjectService } from './project.service';
 import { PlaygroundProjectService } from './playground-project.service';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/portfolio', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home',  component: HomeComponent },
   { path: 'about',  component: AboutComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'playground',     component: PlaygroundComponent },
   { path: 'project-detail/:id',     component: ProjectDetailComponent }
+
 ];
 
 @NgModule({
@@ -27,7 +30,8 @@ const routes: Routes = [
     PortfolioComponent,
     PlaygroundComponent,
     AboutComponent,
-    ProjectDetailComponent
+    ProjectDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

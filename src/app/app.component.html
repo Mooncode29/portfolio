@@ -1,16 +1,16 @@
-	<div class="row">
-		<div class="sidebar col-sm-3">	
-			<img src="assets/fotoprofil.jpg" alt="ma photo" >
-			<h1>{{name}}</h1>
-			<h2>Développeuse Web</h2>
-			<h3>Bonjour et bienvenue sur mon site!</h3>
-			<p>J'ai terminé une formation en developement web en mars 2017 et suis à la recherche d'opportunités  dans ce domaine pour étoffer mes compétences. Mon objectif sur le court terme est de monter en compétences sur les technologies que j'ai utilisées au cour de cette formation : Javascript, Php, Html5, CSS3, Sql, Node, React, Angular. Et sur le long terme, j'aspire à devenir une developpeuse full-stack.Dans ce site j'ai donc selectionné quelques projets que j'ai réalisé ou dont j'ai parctcipé à la réalisation au cours de mes 6 mois de formation pour vous permettre de cerner mes compétences.Habituée au travail en équipe, je possède une bonne capacité d'adaptation, d'autonomie. J'aime m'impliquer dans ce je fais. Ce qui me plaît dans la programmation, c'est le défi, la veille constante, le partage des connaissances ,l'apprentissage et le fait de pouvoir créer énormément de bonnes choses<!--  Mon souhait serait qu'il y a ait autant d'hommes que de femmes artisans du web! Bonne visite :) -->!
-			. </p>
-			<menu>
-				<div><a routerLink="/about">Resume</a></div>
-				<div><a routerLink="/portfolio">Portfolio</a></div>
-				<div><a routerLink="/playground">Playground</a></div>
-			</menu>     
+	<div class="container">
+		<div class="sidebar">
+			<div class="texte">	
+				<h1>{{name}}</h1>
+				<img src="assets/fotoprofil.jpg" alt="ma photo" >
+				<p>Developpeuse Web, lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione harum in sit temporibus odio delectus debitis.</p>
+				<menu>
+					<div><a routerLink="/home">Bio</a></div>
+					<div><a routerLink="/about">CV</a></div>
+					<div><a routerLink="/portfolio">Portfolio</a></div>
+					<div><a routerLink="/playground">Playground</a></div>
+				</menu>
+			</div>     			
 			<div class="socialMedia">
 				<div>
 					<a href="https://twitter.com/?lang=fr"><i class="twit fa fa-twitter fa-2x"></i></a> 
@@ -21,8 +21,7 @@
 				<div>
 					<a href="https://linkedin.com/"><i class=" linkedin fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 				</div>
-
-			</div>
+			</div>			
 		</div>
-		<router-outlet></router-outlet>
+		<div class="content"><router-outlet></router-outlet></div>
 	</div>

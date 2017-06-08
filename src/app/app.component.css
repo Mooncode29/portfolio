@@ -1,14 +1,26 @@
-
+.container{
+	display: flex;
+}
+.texte{
+	flex: 1;
+}
 .sidebar {
+	display: flex;
+	flex-direction: column;
 	height: 100vh;
-	/*width: 15em;*/
+	width: 15em;
 	background: #004e66;
-	position: fixed;
 	color: white;
 	padding: 0 2em 0 2em;
 	text-align: justify;
 
 }
+.content{
+	overflow: auto;
+	height: 100vh;
+	flex: 1;
+}
+
 h1 {
 	color: white;
 }
@@ -22,5 +34,13 @@ img {
 .socialMedia {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 4em;
+}
+.fa {
+	color: #white;
+
+}
+ a {
+	font-size: 20px;
+	/*padding: 3em;
+	color: white;*/
 }

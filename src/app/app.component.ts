@@ -11,7 +11,7 @@ import { ProjectService } from './project.service';
 })
 
 export class AppComponent {
-  title = 'Bienvenue sur mon site!';
+  
   name = 'Irène Ravelonarivo';
 
   projects: Project[];

@@ -11,5 +11,9 @@ body{
 .page-title{
 	text-align: center;
 	font-family:'Playball',cursive;
-	color: #76FF03
+	color: #76FF03;
+}
+.content-inner{
+	max-width: 60em;
+	margin: 0 auto;
 }

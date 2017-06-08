@@ -1,6 +1,5 @@
 .langages {
 	display: flex;
-
 }
 .icone{
 	height: 75px;
@@ -8,7 +7,4 @@
 }
 .gestion {
 	list-style: none;
-}
-.resume{
-	left: 35%;
 }

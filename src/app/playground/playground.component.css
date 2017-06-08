@@ -1,5 +1,5 @@
 .playground {
-	left: 35%;
+	padding: 4em;
 }
 .grid-gallery ul {
 	list-style:none;
@@ -22,18 +22,15 @@
 }
 .grid-gallery figcaption p {
 	margin:0;
-	font-size: 12px;
+	font-size: 14px;
 	color:#fff;
 }
 
-.grid-wrap {
-		margin:0 auto;
-}
 .grid {
 	margin:0 auto;
 }
 .grid li {
-	width:25%;
+	width:45%;
 	float:left;
 	cursor:pointer;
 }
@@ -48,4 +45,8 @@
 .grid figcaption {
 	background:#333;
 	padding: 25px;
+	height: 15em;
 }
+/*.grid-wrap{
+	padding: 2em;
+}*/

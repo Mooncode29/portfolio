@@ -15,7 +15,7 @@ export const projets : Project[]= [
 	{
 		id: 2,
 		name:'Blog MM',
-		imgUrl: 'assets/blog.png',
+		imgUrl: 'assets/blogmm.png',
 		imgDetail: 'assets/blog.png',
 		techno: 'Laravel, Bootstrap',
 		shortDescription: 'Création moteur de blog',
@@ -25,7 +25,7 @@ export const projets : Project[]= [
 	{
 		id: 3,
 		name:'AFEV',
-		imgUrl: 'assets/afev.png',
+		imgUrl: 'assets/afev2.png',
 		imgDetail: 'assets/afev.png',
 		techno: 'Wordpress, Foundation',
 		shortDescription: '',

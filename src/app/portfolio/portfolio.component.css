@@ -1,24 +1,19 @@
-.portfolio {
-	display: flex;
-	position: relative;
-	left: 35%;
 
-}
 .wrap-card{
 	display: flex;
 	background-color: #455A64;
 	-ms-align-items: center;
 	margin: 2em 0 2em 5em;
-	width: 60%;
+	width: 70%;
 	color:#fff;
 }
 .text{
-	
+	/*display: flex;*/	
 	padding-left: 3em;
 }
 .mybtn {
 	margin-top: 10em;
-	margin-left: 16em;
+	margin-left: 13em;
 	
 }
 /*h1 {
